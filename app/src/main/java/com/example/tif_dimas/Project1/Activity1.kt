@@ -32,12 +32,8 @@ class Activity1 : AppCompatActivity() {
 
         binding.btnSubmit.setOnClickListener {
             //Mengambil value dari inputNama dan menampilkan di Logcat
-            val intent = Intent(this, Activity2::class.java)
+            val intent = Intent(this, WebViewActivity::class.java)
             startActivity(intent)
-            Log.e("Klik btnSubmit", "Tombol berhasil di tekan.")
-
-            Toast.makeText(this, "tamipilan dashboard", Toast.LENGTH_SHORT)
-                .show()
         }
     }
 }
