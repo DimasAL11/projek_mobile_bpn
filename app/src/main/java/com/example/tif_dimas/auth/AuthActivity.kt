@@ -1,10 +1,10 @@
-package com.example.tif_dimas.Project1
+package com.example.tif_dimas.auth
 
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.example.tif_dimas.MainActivity
+import com.example.tif_dimas.BaseActivity
 import com.example.tif_dimas.databinding.ActivityAuthBinding
 
 class AuthActivity : AppCompatActivity() {
@@ -37,7 +37,7 @@ class AuthActivity : AppCompatActivity() {
                     editor.putString("username", username)
                     editor.apply()
 
-                    startActivity(Intent(this, MainActivity::class.java))
+                    startActivity(Intent(this, BaseActivity::class.java))
                     finish()
                 }
                 // Cek 3: tidak cocok

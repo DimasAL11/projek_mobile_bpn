@@ -1,4 +1,4 @@
-package com.example.tif_dimas.Project1
+package com.example.tif_dimas.Profile
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

@@ -1,4 +1,4 @@
-package com.example.tif_dimas.Project1
+package com.example.tif_dimas.Beranda
 
 import android.content.Intent
 import android.os.Bundle
@@ -7,10 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.tif_dimas.R
-import android.util.Log
-import android.widget.Toast
 import com.example.tif_dimas.databinding.Activity1Binding
-
 
 class Activity1 : AppCompatActivity() {
 
@@ -29,7 +26,8 @@ class Activity1 : AppCompatActivity() {
 //        // Inisialisasi komponen
 //        val inputNama: EditText = findViewById(R.id.inputNama)
 //        val btnSubmit: Button = findViewById(R.id.btnSubmit)
-
+        // Tombol back pada toolbar
+        binding.toolbar.setNavigationOnClickListener { finish() }
         binding.btnSubmit.setOnClickListener {
             //Mengambil value dari inputNama dan menampilkan di Logcat
             val intent = Intent(this, WebViewActivity::class.java)

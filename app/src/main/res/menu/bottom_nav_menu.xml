@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_beranda"
+        android:icon="@drawable/ic_home"
+        android:title="Beranda" />
+
+    <item
+        android:id="@+id/nav_stok"
+        android:icon="@drawable/ic_inventory"
+        android:title="Stok Bibit" />
+
+    <item
+        android:id="@+id/nav_jenis"
+        android:icon="@drawable/ic_eco"
+        android:title="Jenis Bibit" />
+
+    <item
+        android:id="@+id/nav_afkir"
+        android:icon="@drawable/ic_afkir"
+        android:title="Bibit Afkir" />
+
+    <item
+        android:id="@+id/nav_profil"
+        android:icon="@drawable/ic_person"
+        android:title="Profil" />
+
+</menu>

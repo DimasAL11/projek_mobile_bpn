@@ -14,7 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TIFDimas">
         <activity
-            android:name=".Project1.SplashScreenActivity"
+            android:name=".auth.SplashScreenActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,29 +23,37 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Project1.AuthActivity"
+            android:name=".auth.AuthActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name=".Project1.ProfileActivity"
+            android:name=".Profile.ProfileActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name=".Project1.Activity1"
+            android:name=".Beranda.Activity1"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name=".Project1.Activity2"
+            android:name=".Beranda.Activity2"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name=".Project1.WebViewActivity"
+            android:name=".Beranda.WebViewActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
-
+        <activity
+            android:name=".Beranda.Pertemuan7.SeventhActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".BaseActivity"
+            android:exported="false"
+            android:theme="@style/Theme.TIFDimas"
+            android:windowSoftInputMode="adjustResize" />
     </application>
 
 </manifest>

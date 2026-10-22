@@ -6,5 +6,5 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/button_color"
-    tools:context=".Project1.Activity2">
+    tools:context=".Beranda.Activity2">
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#7FA66B"
-    tools:context=".Project1.Activity1">
+    tools:context=".Beranda.Activity1">
 
     <com.google.android.material.appbar.MaterialToolbar
         android:id="@+id/toolbar"

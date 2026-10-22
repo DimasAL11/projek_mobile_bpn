@@ -9,4 +9,10 @@
     <color name="green_dark">#1B5C37</color>
     <color name="text_dark">#243B2B</color>
     <color name="text_soft">#E8F1E3</color>
+
+    <!-- warna badge status bibit -->
+    <color name="status_info">#2E7D8C</color>
+    <color name="status_ok">#2E7D32</color>
+    <color name="status_warning">#B7791F</color>
+    <color name="status_danger">#B03A2E</color>
 </resources>
