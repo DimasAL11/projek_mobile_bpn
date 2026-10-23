@@ -1,4 +1,4 @@
-package com.example.tif_dimas.beranda.pertemuan7
+package com.example.tif_dimas.Beranda.Pertemuan7
 
 import android.os.Bundle
 import android.view.LayoutInflater

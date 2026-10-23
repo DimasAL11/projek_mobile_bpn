@@ -1,4 +1,4 @@
-package com.example.tif_dimas.beranda.pertemuan7
+    package com.example.tif_dimas.Beranda.Pertemuan7
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
@@ -6,6 +6,9 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.fragment.app.Fragment
+import com.example.tif_dimas.Beranda.Pertemuan7.DuaFragment
+import com.example.tif_dimas.Beranda.Pertemuan7.SatuFragment
+import com.example.tif_dimas.Beranda.Pertemuan7.TigaFragment
 import com.example.tif_dimas.databinding.ActivitySeventhBinding
 
 class SeventhActivity : AppCompatActivity() {

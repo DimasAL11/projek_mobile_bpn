@@ -30,10 +30,6 @@
             android:name=".Profile.ProfileActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
-            android:exported="false"
-            android:windowSoftInputMode="adjustResize" />
-        <activity
             android:name=".Beranda.Activity1"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
@@ -50,9 +46,25 @@
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
+            android:name=".auth.RegisterActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".auth.RegisterSuccessActivity"
+            android:exported="false" />
+        <activity
             android:name=".BaseActivity"
             android:exported="false"
             android:theme="@style/Theme.TIFDimas"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".auth.AccountStorage"
+            android:exported="false"
+            android:theme="@style/Theme.TIFDimas"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".auth.GmailEmailActivity"
+            android:exported="false"
             android:windowSoftInputMode="adjustResize" />
     </application>
 

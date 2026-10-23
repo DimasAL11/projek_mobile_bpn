@@ -11,7 +11,7 @@ import androidx.fragment.app.Fragment
 import com.example.tif_dimas.BaseActivity
 import com.example.tif_dimas.Beranda.Activity1
 import com.example.tif_dimas.R
-import com.example.tif_dimas.beranda.pertemuan7.SeventhActivity
+import com.example.tif_dimas.Beranda.Pertemuan7.SeventhActivity
 import com.example.tif_dimas.databinding.FragmentBerandaBinding
 
 class BerandaFragment : Fragment() {
