@@ -42,6 +42,12 @@ dependencies {
     implementation(libs.androidx.navigation.fragment.ktx)
     implementation(libs.androidx.navigation.ui.ktx)
     implementation(libs.material)
+    // Fitur baru: login sidik jari dan grafik
+    implementation(libs.androidx.biometric)
+    implementation(libs.mpandroidchart)
+    // Pertemuan 11: RecyclerView dan indikator titik untuk Onboarding
+    implementation(libs.androidx.recyclerview)
+    implementation(libs.dotsindicator)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     androidTestImplementation(libs.androidx.junit)

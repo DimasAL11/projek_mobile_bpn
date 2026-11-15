@@ -58,10 +58,8 @@
             android:theme="@style/Theme.TIFDimas"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name=".auth.AccountStorage"
-            android:exported="false"
-            android:theme="@style/Theme.TIFDimas"
-            android:windowSoftInputMode="adjustResize" />
+            android:name=".onboarding.OnboardingActivity"
+            android:exported="false" />
         <activity
             android:name=".auth.GmailEmailActivity"
             android:exported="false"

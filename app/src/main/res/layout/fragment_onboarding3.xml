@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Halaman 3 Onboarding: Catat Bibit Afkir -->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/status_warning"
+    tools:context=".onboarding.Onboarding3Fragment">
+
+    <ImageView
+        android:id="@+id/ivIlustrasi"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:contentDescription="Catat Bibit Afkir"
+        android:src="@drawable/ic_afkir"
+        app:layout_constraintBottom_toTopOf="@id/tvJudul"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.7"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:tint="@color/white" />
+
+    <TextView
+        android:id="@+id/tvJudul"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:text="Catat Bibit Afkir"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/tvDeskripsi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ivIlustrasi" />
+
+    <TextView
+        android:id="@+id/tvDeskripsi"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="200dp"
+        android:gravity="center"
+        android:lineSpacingExtra="4dp"
+        android:text="Ketahui berapa bibit yang tidak lolos seleksi dan apa penyebabnya, lengkap dengan grafiknya."
+        android:textColor="@color/text_soft"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvJudul" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

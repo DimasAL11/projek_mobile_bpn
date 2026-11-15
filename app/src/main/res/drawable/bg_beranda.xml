@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Background Beranda: gradasi hijau tua (atas) ke hijau muda (bawah) -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <gradient
+        android:angle="270"
+        android:centerColor="@color/green_light"
+        android:endColor="@color/green_soft"
+        android:startColor="@color/green_dark"
+        android:type="linear" />
+</shape>
